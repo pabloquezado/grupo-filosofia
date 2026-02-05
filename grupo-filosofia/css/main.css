@@ -1,0 +1,56 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* VARIÁVEIS DE IDENTIDADE */
+  :root {
+    --bg-main: #f7f7f5;
+    --bg-card: #ffffff;
+    --text-main: #1e1e1e;
+    --text-muted: #666;
+    --accent: #5b2c2c; /* bordô acadêmico */
+  }
+  
+  /* BASE GLOBAL */
+  body {
+    font-family: 'Inter', sans-serif;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXi3nn_ic4zWuYSXdi85q8TSsKkQeEMFc5A&s'); 
+    color: var(--text-main);
+    line-height: 1.6;
+  }
+  
+  /* TÍTULOS */
+  h1, h2, h3, h4 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+  
+  /* TEXTOS LONGOS */
+  p, li {
+    font-size: 0.95rem;
+    color: var(--text-main);
+  }
+  
+  /* LINKS */
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* LISTAS */
+  ul {
+    list-style: none;
+  }
+  
