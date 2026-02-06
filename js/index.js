@@ -11,9 +11,10 @@ const images = [
   "https://pabloquezado.github.io/filocomplexaeduca/assets/encontro-12.jpeg",
   "https://pabloquezado.github.io/filocomplexaeduca/assets/encontro-11.jpeg",
   "https://pabloquezado.github.io/filocomplexaeduca/assets/encontro-9.jpeg",
+  "https://pabloquezado.github.io/filocomplexaeduca/assets/imgcrop.png",
   "https://pabloquezado.github.io/filocomplexaeduca/assets/encontro2.jpeg",
   "https://pabloquezado.github.io/filocomplexaeduca/assets/encontro3.jpg",
-  "https://pabloquezado.github.io/filocomplexaeduca/assets/imgcrop.png"
+  "https://iear.uff.br/wp-content/uploads/sites/232/2025/07/Foto-de-Nicolle-Jordao-768x1024.jpg"
 ];
 
 let currentImage = 0;
