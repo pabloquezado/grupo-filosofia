@@ -86,6 +86,7 @@ color: white;
 
   /* NAV */
 .main-nav ul {
+  margin-top: 0.8rem;
     display: flex;
     gap: 1.5rem;
   }
@@ -162,15 +163,19 @@ color: white;
   .image-slider img {
     display: block!important;
     margin: auto!important;
-    width: 150%;
+    width: 200%;
     max-height: 100%;
     border-radius: 4px;
+
+    position: relative;
+left: 3rem;
+right: 3rem;
   }
   
   /* botão de setinha */
   .slider-btn {
     position: absolute;
-    left: 24rem;
+    left: 27rem;
     top: 50%;
     transform: translateY(-50%);
     background: #111;
@@ -292,4 +297,9 @@ color: white;
 
 .right-column img{
   position: relative; max-width: 250px;
+}
+
+.right-column h2{
+  margin-bottom: 0.7rem;
+text-align: center; color: white; background-color: var(--accent);
 }
